@@ -52,7 +52,11 @@ const Footer = () => {
             Contact
           </Link>
         </div>
-
+        <div className=" mt-4 md:mt-0">
+            <Link to="/" className=" font-semibold text-2xl p-1 cursor-pointer">
+              Call: 09051702777
+            </Link>
+        </div>
         <div className=" mt-4 md:mt-0">
           <Link to="/" className=" font-semibold text-2xl p-1 cursor-pointer">
             Cimspace
