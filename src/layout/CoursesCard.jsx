@@ -14,7 +14,11 @@ const CoursesCard = (props) => {
       </div>
       <div>
         <h3 className="font-semibold text-lg text-center my-5">
-          {props.title} ({props.price})
+          {props.title} ({props.discount_price}{" "}
+          <i>
+            <s>{props.price}</s>
+          </i>
+          ) - {props.duration}
         </h3>
         <p className="text-lightText text-center md:text-start">
           {props.content}
@@ -22,7 +26,7 @@ const CoursesCard = (props) => {
 
         <button
           onClick={handleDownload}
-          style={{ display: 'block', margin: '0 auto' }}
+          style={{ display: "block", margin: "0 auto" }}
           className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
         >
           View Curriculum
