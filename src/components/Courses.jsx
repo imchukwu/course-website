@@ -10,13 +10,15 @@ const Courses = () => {
   return (
     <div className=" min-h-screen flex flex-col items-center md:px-32 px-5 my-10">
       <Heading title1="Our" title2="Courses" />
-      <h2><strong>With Pracical Projects</strong></h2>
+      <h2>
+        <strong>With Pracical Projects</strong>
+      </h2>
       <div className=" flex flex-wrap justify-center gap-6 mt-6">
         <CoursesCard
           img={webImg}
           title="Python Programming"
-          price="₦100,000"
-          discount_price="₦85,000"
+          price="₦120,000"
+          discount_price="₦102,000"
           duration="3months"
           content="Unlock the power of Python with Cimspace - master versatile syntax 
         and unleash your creativity in software development and data analysis."
@@ -25,8 +27,8 @@ const Courses = () => {
         <CoursesCard
           img={appImg}
           title="Java Programming"
-          price="₦100,000"
-          discount_price="₦85,000"
+          price="₦120,000"
+          discount_price="₦102,000"
           duration="3months"
           content="At Cimspace, delve into the robust world of Java programming - from foundational 
         concepts to advanced application development, elevate your coding prowess."
@@ -35,8 +37,8 @@ const Courses = () => {
         <CoursesCard
           img={graphicImg}
           title="Go Programming"
-          price="₦100,000"
-          discount_price="₦85,000"
+          price="₦120,000"
+          discount_price="₦102,000"
           duration="3months"
           content="Explore the efficiency and simplicity of Go programming with Cimspace - 
         learn to build scalable and high-performance applications for the modern era."
@@ -45,8 +47,8 @@ const Courses = () => {
         <CoursesCard
           img={digitalImg}
           title="Web Design - HTML, CSS and JavaScript"
-          price="₦100,000"
-          discount_price="₦85,000"
+          price="₦120,000"
+          discount_price="₦102,000"
           duration="3months"
           content="Craft captivating web experiences with Cimspace - learn
          HTML, CSS, and JavaScript fundamentals, and unlock the secrets to stunning web design."
@@ -55,8 +57,8 @@ const Courses = () => {
         <CoursesCard
           img={graphicImg}
           title="Frontend Web Development - REACT"
-          price="₦150,000"
-          discount_price="₦127,500"
+          price="₦180,000"
+          discount_price="₦153,000"
           duration="4months"
           content="Elevate your frontend skills with Cimspace - master React 
         and learn to create responsive and engaging user interfaces that leave a lasting impression."
@@ -65,8 +67,8 @@ const Courses = () => {
         <CoursesCard
           img={digitalImg}
           title="Backend Web Development - Django | Spring"
-          price="₦150,000"
-          discount_price="₦127,500"
+          price="₦180,000"
+          discount_price="₦153,000"
           duration="4months"
           content="Unlock the potential of backend development with 
         Cimspace - delve into Django or Spring frameworks, and learn to build robust, scalable, and secure web applications."
@@ -75,8 +77,8 @@ const Courses = () => {
         <CoursesCard
           img={digitalImg}
           title="Fullstack Web Development - MERN"
-          price="₦200,000"
-          discount_price="₦170,000"
+          price="₦250,000"
+          discount_price="₦212,500"
           duration="5months"
           content="Join Cimspace to become a proficient MERN stack developer - 
         from database management to frontend design and server-side logic, gain the skills to develop comprehensive web applications."
